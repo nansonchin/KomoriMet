@@ -1,0 +1,49 @@
+.metSkin-section {
+    padding-top: 5%;
+}
+
+.metSkin-container {
+    background-color: #f9a03f;
+}
+
+
+
+.metSkin-whole {
+    padding-top: 10%;
+    height: 100vh;
+}
+
+.metSkin-whole-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+
+.met-skin-selection-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    background-color: #ef820c;
+    height: 60vh;
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+.met-skin-selection-container img{
+    text-align: center;
+}
+
+.metskin-Head {
+    width: 180px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

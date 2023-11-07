@@ -1,0 +1,63 @@
+.metSection{
+    overflow-x: hidden;
+}
+.metNaming {
+    display: flex;
+    justify-content: center;
+}
+
+.metNaming-container {
+    text-align: center;
+}
+
+.komoriFlex {
+    display: flex;
+}
+
+.komoriJP {
+    margin-right: 1px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 120px;
+    font-weight: 900;
+    position: relative;
+    text-stroke: 2px black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url('./components/picture/metWordWallppr.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.komoriEn {
+    margin-left: 1px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: bottom;
+    word-spacing: 30px;
+    text-shadow: 3px 4px 7px rgba(189, 124, 11, 0.865);
+    background: -webkit-linear-gradient(#ff5b09, #d75a06);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    font-size: 25px;
+    position: relative;
+}
+
+.komoriEn:after{
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: -10%;
+    width: 60%;
+    height: 80%;
+    border-left: 4px solid rgb(233, 163, 11);
+
+}
+
+.komoriMetFigurePic{
+    /* height: 90%;
+    width: 50vw; */
+    max-width: 100%;
+    object-fit: cover;
+}
+
